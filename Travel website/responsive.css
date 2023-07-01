@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px){
+    .nav-css{
+        padding: 0px 0px !important;
+    }
+
+    .nav-center{
+        margin-left: 0px;
+     }
+
+     ul li a{
+        margin: 0  0px !important;
+     }
+
+     .icon{
+        margin-left: 0px;
+    }
+}
