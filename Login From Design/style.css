@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  main{
+    width: 100%;
+    height: 100vh;
+     background: linear-gradient(190deg, #194293, #a6099ecf);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+  }
+
+  .card{
+    width: 400px;
+    min-height: 350px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .btn-div{
+    width: 100%;
+    display: inline-flex;
+    margin: 15px 0;
+    /* color: #111 !important; */
+  }
+ 
+
+  input{
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background-color: #b3adad69;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+
+  .btn{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+  }
+
+  .btn-fa{
+    background-color: #3b5998;
+    margin-right: 4px;
+    color: #fff;
+   
+  }
+
+  .fa-icon{
+    color: #fff;
+    padding-right: 5px;
+  }
+
+  .btn-go{
+    box-shadow: 1px 1px 1px 1px #999;
+    margin-left: 4px;
+  }
+ 
+  .fa-google{
+    padding-right: 5px;
+    color: blue;
+  }
+
+  .btn-hub{
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 0;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+
+
+  .btn-hub:hover{
+    background-color: #555;
+  }
+
+
+  
+  a{
+    margin-left: 5px;
+    transition: 05s;
+  }
+
+ a:hover{
+    color: red;
+ }
