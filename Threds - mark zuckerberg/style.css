@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: normal;
+}
+
+body{
+    background: #ECEDEE;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.threds{
+    width: 430px;
+    padding: 29px;
+    text-align: center;
+}
+
+.logo{
+  width: 85px;
+}
+
+.threds h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.threds p {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.img-logo{
+    width: 14px;
+}
+
+.btn{
+    width: 100%;
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: #99999938;
+    background: #fff;
+    box-shadow: 0, 0 1px 1px #999999b7;
+    margin: 8px 0;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #ffffff2d;
+}
+
+.btn-threds span{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+.discord{
+    color: rgba(0, 0, 255, 0.824);
+}
+
+.hr-tem{
+   display: flex;
+   justify-content: center;
+   
+}
+
+div hr{
+    width: 150px;
+    margin-top: 10px;
+    border-color: #ffffff62;
+}
+
+.hr-1{
+    padding-right: 20px;
+}
+
+.hr-2{
+    padding-left: 20px;
+}
+
+input{
+    width: 100%;padding: 15px 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cfcccc3d;
+    box-shadow: 0, 0, 1,1 #99999949;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-for{
+    background-color: #beb3f4 !important;
+    font-size: 15px;
+    transition: 0.5s;
+    margin-top: 10px;
+    color: #fff;
+}
+
+
+.btn-for:hover{
+    background-color: #846fed56 !important; 
+}
+
+.short{
+    padding: 0 65px;
+    color: #999;
+}
