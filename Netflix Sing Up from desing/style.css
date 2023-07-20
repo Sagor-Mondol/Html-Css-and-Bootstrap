@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Akatab&family=Roboto:wght@500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background: #000;
+}
+
+body::before{
+    content: '';
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url(img/hero-img.jpg);
+    opacity: 0.5;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    padding: 25px 60px;
+}
+
+nav img{
+    width: 160px;
+}
+
+
+.form-wrapper{
+    width: 400px;
+    padding: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0,0,0,0.75);
+    position: absolute;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.form-wrapper h2{
+    margin-bottom: 20px;
+}
+
+
+.form-control input{
+        width: 100%;
+        height: 150%;
+        font-size: 1rem;
+        padding: 15px 20px;
+        border-radius: 4px;
+        margin: 10px 0;
+        border: 0;
+        outline: 0;
+        background: #333;
+        color: #fff;
+}
+
+
+.form-wrapper button{
+    padding: 16px 0;
+    background: #e50914;
+     width: 100%;
+     border: none;
+     color: #fff;
+     border-radius: 4px;
+     margin: 8px 0;
+     font-size: 1rem;
+     transition: 0.5s ease;
+}
+
+.form-wrapper button:hover{
+    background: #e50914a5;
+}
+
+.form-help{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    color: #b3b3b3; 
+    font-size: 15px;
+}
+
+.form-help a{
+    text-decoration: none !important;
+    color: #b3b3b3;
+}
+
+.last-col{
+   color: #b3b3b3;
+}
+
+.last-col .ap{
+    color: #ffffffbd !important;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.last-col a{
+    color: rgba(0, 0, 255, 0.823);
+    text-decoration: none;
+    font-size: 12px;
+}
